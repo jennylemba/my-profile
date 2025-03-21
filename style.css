@@ -112,6 +112,10 @@ a:hover {
 	text-align: center;
 }
 
+.card-white:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 
 .img-circle {
 	border-radius: 10%;
@@ -126,7 +130,8 @@ a:hover {
 }
 
 .btn-blue-primary:hover {
-	background-color: pink
+	background-color: pink;
+	color: white;
 }
 
 .btn-blue-secondary {
@@ -139,6 +144,8 @@ a:hover {
 .btn-blue-secondary:hover {
 	background-color: #BF2EF0;
 	color: white;
+	transform: translateY(-10px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
 }
 
 .list-inlne li {
